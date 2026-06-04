@@ -9,15 +9,11 @@ class Solution {
     while (left < right) {
      if (height[left] < height[right]) {
          left++;
-         if (right == left) break;
-         currentArea = Math.min(height[left], height[right]) * (right - left);
-         maxArea = Math.max(maxArea, currentArea);
      } else {
          right--;
-         if (right == left) break;
-         currentArea = Math.min(height[left], height[right]) * (right - left);
-         maxArea = Math.max(maxArea, currentArea);
      }
+     currentArea = Math.min(height[left], height[right]) * (right - left);
+         maxArea = Math.max(maxArea, currentArea);
     }
 
     return maxArea;
