@@ -3,7 +3,7 @@ class Solution {
 
     int left = 0, right = height.length - 1;
     int maxArea = Math.min(height[left], height[right]) * (right - left);
-    if (height.length == 2) return maxArea;
+    if (height.length == 2) return maxArea; 
     int currentArea = 0;
 
     while (left < right) {
