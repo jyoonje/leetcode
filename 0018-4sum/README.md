@@ -2,7 +2,7 @@
 
 <ul>
 	<li><code>0 &lt;= a, b, c, d&nbsp;&lt; n</code></li>
-	<li><code>a</code>, <code>b</code>, <code>c</code>, and <code>d</code> are <strong>distinct</strong>.</li>
+	<li><code>a</code>, <code>b</code>, <code>c</code>, and <code>d</code> are <strong>dis tinct</strong>.</li>
 	<li><code>nums[a] + nums[b] + nums[c] + nums[d] == target</code></li>
 </ul>
 
