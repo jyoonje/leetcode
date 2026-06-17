@@ -4,7 +4,7 @@
 P   A   H   N
 A P L S I I G
 Y   I   R
-</pre>
+</pre> 
 
 <p>And then read line by line: <code>&quot;PAHNAPLSIIGYIR&quot;</code></p>
 
