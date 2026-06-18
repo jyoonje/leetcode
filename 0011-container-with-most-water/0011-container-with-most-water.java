@@ -6,7 +6,7 @@ class Solution {
     if (height.length == 2) return maxArea; 
     int currentArea = 0;
 
-    while (left < right) {
+    while (left < right) { 
      if (height[left] < height[right]) {
          left++;
      } else {
