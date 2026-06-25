@@ -10,7 +10,7 @@
 The first occurrence is at index 0, so we return 0.
 </pre>
 
-<p><strong class="example">Example 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p> 
 
 <pre>
 <strong>Input:</strong> haystack = &quot;leetcode&quot;, needle = &quot;leeto&quot;
